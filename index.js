@@ -19,16 +19,16 @@ npc.walkNorth(1400, () => {
   });
 });
 
-//
-//   npc.walkEast();
-// });
-
-// npc.walkWest(500, () => {
+// npc.walkEast(500, () => {
 //   npc.walkNorth();
 // });
 
 // npc.walkNorth(500, () => {
-//   npc.walkEast();
+// npc.walkWest();
+// });
+
+// npc.walkWest(500, () => {
+// npc.walkSouth();
 // });
 
 // Create the inventory
